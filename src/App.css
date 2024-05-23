@@ -1,0 +1,406 @@
+.App {
+  text-align: center;
+}
+
+/* header { */
+  /* position: fixed; */
+  /* z-index: 9999; */
+  /* background: #fcfcfc; */
+  /* padding: 1rem; */
+  /* top: 0;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  width: 50%;
+}
+
+nav ul {
+  text-align:right;
+  margin: 0; */
+  /* list-style:none; */
+  /* padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0rem;
+  color: black;
+
+} */
+
+
+header{
+  position: fixed;
+  width:100%;
+  z-index: 999;
+
+}
+
+.logo{
+  height: 30px;
+  width: 30px;
+  padding-left: 2%;
+}
+
+.quote{
+  text-align: left;
+  font-size:x-large;
+  font-family: monospace;
+}
+
+.quote-author{
+  padding-left: 50%;
+}
+
+.nav{
+  height: 50px;
+  top: 0%;
+  /* height: 100vh; */
+  /* background-color: rgb(0, 0, 0); */
+  /* From https://css.glass */
+background: rgb(0, 0, 0);
+/* border-radius: 16px; */
+/* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+border: 1px solid rgba(0, 0, 0, 0.08); */
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 40px; */
+  padding-left: 2%;
+  padding-right: 5%;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(../public/Montserrat-VariableFont_wght.ttf);
+}
+.confi{
+  color:white;
+  font-size: 22px;
+  font-family: montserrat;
+  font-weight: normal;
+  padding-right: 25%;
+}
+
+.head{
+  color: rgb(255, 255, 255);
+  font-family:montserrat;
+}
+
+.login-home-btn{
+  font-size:x-small;
+  background-color: white;
+  color:black;
+  
+}
+.login-home-btn:hover{
+  border-color: white;
+  color: white;
+  /* background-color: rgb(0, 0, 0); */
+  background: rgba(0, 0, 0, 0.3);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+  margin: 0%;
+}
+
+/* nav ul{
+  padding-left: 30%;
+} */
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  color:rgb(191, 125, 204);
+  transition: .3s;
+  cursor: pointer;
+}
+button{
+  border: none;
+  padding: 7px 30px;
+  border-radius: 25px;
+  background-color: rgb(179, 71, 200);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+button:hover{
+  color: rgb(179, 71, 200);  
+  background-color: white;
+  border-color: rgb(179, 71, 200);
+  cursor: pointer;
+  border: 1px solid;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 0%;
+  margin: 0%;
+  /* width: 100%; */
+}
+footer p{
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+/* main { */
+  /* padding: 2rem; */
+/* } */
+
+.home{
+  padding: 60px;
+   background-image: url("/src/components/images/home.png"); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+
+.services {
+  /* margin: 2rem 0; */
+  background-color: white;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+.dental3d{
+  /* padding-right: 60%; */
+  width: 20%;
+  padding: 10% ;
+  transform: scale(3);
+}
+/* .dental3d:hover{
+  transform: scale(4) ;
+  transition: 2s;
+
+} */
+
+
+.home h2{
+  text-align: left;
+}
+
+@font-face{
+  font-family: radio;
+  src:url(../public/RadioCanadaBig-VariableFont_wght.ttf)
+}
+.welcome{
+  font-family: radio;
+  font-size: 700%;
+}
+@font-face {
+  font-family: italiana;
+  src: url(../public/Italiana-Regular.ttf);
+}
+.CDC{
+  font-family: italiana;
+  font-size: 500%;
+}
+
+.services ul li{
+  list-style:none;
+}
+.services h2{
+  font-family: radio;
+  text-align: left;
+  font-size:xx-large;
+}
+
+.flex-container{
+  display:flex;
+  padding-bottom: 10%;
+}
+.flex-box{
+  width: 200px;
+  height: 200px;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border-radius: 20px;
+  margin: 20px;
+  padding-top: 10px;
+  
+}
+
+.tc, .canal{
+  width:200px;
+  height: 200px;
+}
+.tw{
+  width: 125px;
+  height: 200px;
+}
+.braces{
+  width: 200px;
+  height: 200px;
+}
+.implants{
+  width: 225px;
+  height: 200px;
+}
+
+.flex-box:hover{
+  transform: scale(1.2);
+  transition: ease-in-out;
+  cursor: pointer;
+}
+
+
+.contact h2{
+  font-family: radio;
+  text-align: center;
+  font-size:x-large;
+}
+
+.contact-address , .mobile{
+  text-align: left;
+  padding-left: 5%;
+  margin-right: 0%;
+}
+.join ul li {
+  text-align: right;
+  /* padding-right: 5%; */
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: 0%;
+
+}
+.join ul li a{
+  color: #ffffff;
+  cursor: pointer;
+  margin-left:10px;
+  margin-bottom: 0%;
+
+}
+.join{
+  text-align: right;
+  /* padding-right: 5%; */
+  margin-bottom: 0%;
+}
+.contact-span{
+  font-family:radio;
+  font-size: larger;
+}
+.contact ul{
+  list-style-type: none;
+}
+.working-hrs{
+  text-align: right;
+  /* padding-right: 10%; */
+}
+
+.contact{
+  background-color: #333;
+  color: white;
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+}
+
+.appointment{
+  height: 100%;
+  background-image: url(/src/components/images/Appointment.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  /* padding-bottom: 25%; */
+}
+
+.appointment-form{
+  padding: 40px;
+  /* height: 300px; */
+  width: 40%;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow:0px 0px 50px #333 ;
+  margin: 10%;
+}
+
+.appointment-form input, text {
+  z-index: 10;
+  /* position: relative; */
+  /* border:none; */
+  /* border-top: 1px #333;
+  border-left: 1px #333;
+  border-right: 1px #333; */
+  /* height: 60px;
+  width: 200px; */
+}
+input[type="date"],[type="text"],[type="email"], textarea {
+  position: relative;
+  width: 260px;
+  height: 40px;
+  font-size: large;
+  /* font-family: italiana; */
+  font-weight: bold;
+  color: #505050;
+  /* z-index: 0; */
+}
+
+.appointment-form :placeholder-shown{
+  /* font-family: italiana; */
+  font-weight: bold;
+  /* font-size: x-large; */
+}
+
+.appointment h2{
+  text-align: left;
+  padding-left: 10px;
+  font-family: radio;
+  font-size: xx-large;
+  padding-top: 5%;
+}
+
+.box-1{
+  display: flex;
+  gap: 150px;
+  text-align: left;
+  /* padding-right: 20%; */
+  /* padding-left: 0%; */
+}
+/* .box-1-1{ */
+  /* padding-left: 20%; */
+/* } */
+
+.box-2{
+  display: inline-flex;
+  /* padding-right: 20%; */
+  
+}
+
+/* .contact{
+  display: flex;
+  gap: 20px;
+} */
+.int{
+  display: flex;
+  gap: 150px;
+}
+
